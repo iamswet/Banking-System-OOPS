@@ -3,11 +3,15 @@
 
 Banking System to be Made Using OOPS
 
+<hr>
+
 Objectives:
 
 - To design a banking system using OOP concepts.
 - Implement account creation, deposit, withdrawal, and transaction history functionalities.
 - Ensure encapsulation, inheritance, and polymorphism.
+<hr>
+
 
 Project Plan:
 Step 1: Requirements Gathering and Planning
@@ -20,6 +24,8 @@ Step 1: Requirements Gathering and Planning
    - Interest calculation (for savings accounts)
    - Overdraft limit (for business accounts)
    - Simple admin and customer access
+<hr>
+
 
 Step 2: Class Structure
 
@@ -27,6 +33,8 @@ Step 2: Class Structure
    - Base classes: Person, Account
    - Derived classes: Customer, Admin, SavingsAccount, BusinessAccount
    - Auxiliary classes: Transaction, Bank
+<hr>
+
 
 Step 3: Define Classes and Methods
 Person
@@ -87,6 +95,8 @@ Methods:
 - delete_customer_account(): Deletes a customer’s account
 - view_transaction_history(account_number): Returns all transactions for a given account
 - find_customer_by_account(account_number): Finds and returns the customer associated with an account
+<hr>
+
 Step 4: Define Functionalities and Logic
 
 1. Account Creation:
@@ -107,6 +117,8 @@ Step 4: Define Functionalities and Logic
 5. Transaction History:
    - Transaction details stored in Transaction class.
    - Use view_transaction_history() in Bank to view the history for any account.
+<hr>
+
 
 Step 5: Code Implementation and Testing
 
@@ -121,6 +133,8 @@ Step 5: Code Implementation and Testing
      - Creating accounts, depositing, withdrawing (both within and outside overdraft limits).
      - Checking interest calculation.
      - Testing transaction history retrieval.
+<hr>
+
 
 Step 6: Documentation and Final Presentation
 
